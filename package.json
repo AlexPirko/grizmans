@@ -1,0 +1,15 @@
+{
+  "name": "grizans",
+  "version": "1.0.0",
+  "description": "Medical center",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./css/input.css -o ./dist/output.css",
+    "watch": "tailwindcss -i ./css/input.css -o ./dist/output.css  --watch"
+  },
+  "author": "Pirko",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
